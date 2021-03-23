@@ -10,8 +10,12 @@ A web app that lets you veiw some of your favorite pokemon!
 
 ## Wireframes/Screenshots
 ![wireframe](Pokemon.png)
+![screenshot](pokeball-img.jpeg)
 
 ## Getting started 
 [Click Away](#) to get started
 
 ## Future Enhancements
+
+- Adding a background image to the card class and the body tag 
+- adding a modal to the card class bringing up an image and name of the pokemon by clicking the pokeball 

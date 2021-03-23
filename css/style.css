@@ -1,0 +1,60 @@
+/* reset css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: helvetica;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('');
+}
+
+/* cascading down the header and footer */
+
+header, footer {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+
+header {
+    padding-left: 15px;
+    background-color: #3b4cca;
+    color: #ffde00;
+    box-shadow: 1px 1px 3px 2px gray;
+}
+
+main {
+    flex-grow: 1;
+}
+
+#Pokesection {
+    display: flex;
+    align-items: center;
+    margin: 40px auto 0 auto;
+    width: 650px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    width: 200px;
+    height: 200px;                  /*turns the rectangles into circles, W,H,B-R*/
+    margin: 5px;
+    /*color: #fff;
+    background-color: red;*/
+    border-radius: 50%;
+    border: 3px solid #000;
+    background-image: url('https://pngimg.com/uploads/pokeball/pokeball_PNG29.png');
+    background-size: auto;
+}
+
+footer {
+    justify-content: center;
+}
