@@ -10,11 +10,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('https://i.pinimg.com/originals/d3/50/e1/d350e114fd40092df821f52d84029adf.jpg');
+    background-image: url('https://wallpaperaccess.com/full/1805129.jpg');
     background-size: cover;
     background-position: center;
+    
 }
-
+/*https://i.pinimg.com/originals/d3/50/e1/d350e114fd40092df821f52d84029adf.jpg*/
 /* cascading down the header and footer */
 
 header, footer {
@@ -49,7 +50,7 @@ main {
     width: 200px;
     height: 200px;                  /*turns the rectangles into circles, W,H,B-R*/
     margin: 5px;
-    color: #fff;
+    color: cyan;
     background-color: transparent;
     border-radius: 50%;
     /*border: 3px solid #000;*/
@@ -61,3 +62,4 @@ footer {
     justify-content: center;
     color: white;
 }
+
