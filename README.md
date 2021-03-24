@@ -13,7 +13,7 @@ A web app that lets you veiw some of your favorite pokemon!
 ![screenshot](pokeball-img.jpeg)
 
 ## Getting started 
-[Click Away](#) to get started
+[Click Away](https://roccowhiting.github.io/pokemon-ajax-project/) to get started
 
 ## Future Enhancements
 
