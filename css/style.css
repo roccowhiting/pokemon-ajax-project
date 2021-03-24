@@ -10,7 +10,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /*background-image: url('');*/
+    background-image: url('https://i.pinimg.com/originals/d3/50/e1/d350e114fd40092df821f52d84029adf.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 /* cascading down the header and footer */
@@ -48,13 +50,14 @@ main {
     height: 200px;                  /*turns the rectangles into circles, W,H,B-R*/
     margin: 5px;
     color: #fff;
-    background-color: red;
+    background-color: transparent;
     border-radius: 50%;
-    border: 3px solid #000;
+    /*border: 3px solid #000;*/
     background-image: url('https://pngimg.com/uploads/pokeball/pokeball_PNG29.png');
     background-size: cover;
 }
 
 footer {
     justify-content: center;
+    color: white;
 }
