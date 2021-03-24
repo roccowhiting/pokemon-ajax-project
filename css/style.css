@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('');
+    /*background-image: url('');*/
 }
 
 /* cascading down the header and footer */
@@ -47,12 +47,12 @@ main {
     width: 200px;
     height: 200px;                  /*turns the rectangles into circles, W,H,B-R*/
     margin: 5px;
-    /*color: #fff;
-    background-color: red;*/
+    color: #fff;
+    background-color: red;
     border-radius: 50%;
     border: 3px solid #000;
-    background-image: url('https://pngimg.com/uploads/pokeball/pokeball_PNG29.png');
-    background-size: auto;
+    /*background-image: url('https://pngimg.com/uploads/pokeball/pokeball_PNG29.png');
+    background-size: auto;*/
 }
 
 footer {
