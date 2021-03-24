@@ -1,12 +1,13 @@
-//alert('javascript is loaded');
 // constant state variables - data that does not change
 const BASE_URL = 'https://pokeapi.co/api/v2/pokemon?limit=26&offset=0' 
 
 // state varieables - data that does change 
-let pokeData;
+let Pokesection;
+
 
 // cached element references - parts of the DOM that we need to touch 
 const  $Pokesection = $('#Pokesection')
+
 // event listeners - respond to events like the user clicking on a picture or clicking a buitton  
 $Pokesection.on('click', '.card', handleShowModal);
 
@@ -20,8 +21,15 @@ function init() {
 }
 
 function handleShowModal() {
+    const pokeId = this.dataset.pokeName;
+    const selectedPoke = Pokesection.find(function(pokeData) {
+        return pokeData.results_name === pokeId;
+    });
 
-    $('#Pokesection').text(pokeData.results.name);
+    console.log(selectedPoke);
+
+    // adding content to modal 
+    
 
     $('.modal').modal();
 }
@@ -42,7 +50,7 @@ function getData() {
 function render() {
     const html = pokeData.results.map(function(pokemon){
         return `
-        <article ="${pokeData}" class="card">
+        <article data-results-name ="${pokeData.results_name}class="card">
             <h1>${pokemon.name}</h1>
         </article>
         `
