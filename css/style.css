@@ -51,8 +51,8 @@ main {
     background-color: red;
     border-radius: 50%;
     border: 3px solid #000;
-    /*background-image: url('https://pngimg.com/uploads/pokeball/pokeball_PNG29.png');
-    background-size: auto;*/
+    background-image: url('https://pngimg.com/uploads/pokeball/pokeball_PNG29.png');
+    background-size: auto;
 }
 
 footer {
