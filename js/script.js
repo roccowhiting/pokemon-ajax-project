@@ -2,7 +2,7 @@
 const BASE_URL = 'https://pokeapi.co/api/v2/pokemon?limit=26&offset=0' 
 
 // state varieables - data that does change 
-let Pokesection;
+let pokeData;
 
 
 // cached element references - parts of the DOM that we need to touch 
@@ -21,12 +21,7 @@ function init() {
 }
 
 function handleShowModal() {
-    const pokeId = this.dataset.pokeName;
-    const selectedPoke = Pokesection.find(function(pokeData) {
-        return pokeData.results_name === pokeId;
-    });
 
-    console.log(selectedPoke);
 
     // adding content to modal 
     
@@ -50,7 +45,7 @@ function getData() {
 function render() {
     const html = pokeData.results.map(function(pokemon){
         return `
-        <article data-results-name ="${pokeData.results_name}class="card">
+        <article class="card">
             <h1>${pokemon.name}</h1>
         </article>
         `
